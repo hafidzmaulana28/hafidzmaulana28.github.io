@@ -1,3 +1,3 @@
 function myfunction(){
-    alert("mau aja di suruh suruh, aneh");
+    alert("mau aja disuruh suruh, aneh");
 }
