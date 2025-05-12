@@ -1,0 +1,50 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-image: url("/assets/images/fotokopi.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.data {
+  position: absolute;
+  top: 45%;
+  left: 10%; 
+  transform: translateY(-50%);
+  text-align: left;
+  color: #000;
+  max-width: 50%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.hastag {
+  position: absolute;
+  bottom: 0.5%;
+  right: 7%;
+  color: #000;
+  font-size: small;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+button {
+  position: absolute;
+  bottom: 3%;
+  left: 2%; 
+  color: black;
+  font-size: small;
+  cursor: pointer;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+button:hover {
+  color: rgb(0, 0, 154)
+}
+
+

@@ -1,0 +1,29 @@
+nav {
+  background-color: transparent;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  border-bottom: none;
+
+  a {
+    text-decoration: solid;
+    color: black; 
+    font-weight: bold;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    &:hover {
+      color: rgb(120, 30, 30);
+    }
+
+    &.current {
+      color: black; 
+      background-color: white;
+      padding: 5px 10px;
+      border-radius: 5px;
+    }
+  }
+}
+
